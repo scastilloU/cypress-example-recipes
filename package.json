@@ -18,7 +18,7 @@
     "test:ci:chrome:headless": "node ./test-examples --chrome --headless",
     "test:ci:firefox": "node ./test-examples --firefox",
     "warn-only": "stop-only --warn --folder examples --skip node_modules",
-    "runtests": "npm-run-all -p test:ci test:ci:brave test:ci:chrome test:ci:chrome:headless"
+    "runtests": "npm-run-all -p test:ci test:ci:brave test:ci:chrome test:ci:chrome:headless "
 
   },
   "husky": {
